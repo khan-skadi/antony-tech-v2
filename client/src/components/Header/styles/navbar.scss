@@ -1,0 +1,47 @@
+.nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  background-color: transparent;
+  padding: 25px 100px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.logo {
+}
+
+nav {
+  text-align: center;
+  float: right;
+  display: block;
+  box-sizing: border-box;
+
+  .nav-menu {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+
+    .nav-menu-li {
+      display: inline-block;
+      position: relative;
+      font-style: normal;
+      font-weight: 400;
+
+      .nav-menu-link {
+        color: #fff;
+        margin: 30px 6px;
+        font-size: 15px;
+        transition: 0.5s;
+        font-weight: 600;
+      }
+    }
+  }
+}
