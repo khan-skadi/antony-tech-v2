@@ -1,0 +1,267 @@
+.home-wrapper {
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+.section-home {
+}
+
+.parallax-wrapper {
+  width: 100%;
+  transform: translate3d(0px, 0px, 0px);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  height: auto;
+  position: relative;
+  z-index: 0;
+  float: left;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  opacity: 1;
+  width: 1284px;
+  transform: translate3d(0px, 0px, 0px);
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  &:before {
+    display: table;
+    content: '';
+  }
+
+  &:after {
+    clear: both;
+    display: table;
+    content: '';
+  }
+}
+
+.single-slide {
+  background-image: url('https://webitkurigram.com/wpv/cyber/wp-content/uploads/2019/10/slider02.jpg');
+  width: 1284px;
+  height: 875px;
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center center;
+  display: block;
+  float: left;
+
+  &:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+  }
+
+  &:after {
+    clear: both;
+    display: table;
+    content: '';
+  }
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  margin: auto;
+  width: 100%;
+  z-index: 999;
+  text-align: left !important;
+  display: block;
+
+  h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 0 0 24px;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    font-size: 60px;
+    text-transform: none;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+    line-height: 1.1;
+
+    span {
+      color: #0c5adb;
+      box-sizing: border-box;
+      font-size: 60px;
+      text-transform: none;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+  }
+
+  h2 {
+    font-size: 65px;
+    text-transform: none;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+    line-height: 1.1;
+    width: 68%;
+  }
+
+  h3 {
+    text-transform: none;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    font-size: 60px;
+  }
+
+  p {
+    text-align: left;
+    color: #fff;
+    margin: 16px 0 26px;
+    font-size: 18px;
+    width: 50%;
+  }
+
+  .slider-video-icon {
+    display: inline-block;
+    padding-top: 14px;
+
+    .video-link-icon {
+      text-align: center;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      animation: ripple-white 1s linear infinite;
+      -webkit-transition: 0.5s;
+      background: #fff;
+      color: #7744d9;
+      border-radius: 500%;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      transition: 0.5s;
+      font-style: normal;
+      font-weight: 400;
+      text-decoration: none;
+
+      .fa-play {
+        font-family: 'FontAwesome';
+        font-style: inherit;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        display: inline-block;
+        text-rendering: auto;
+        speak: none;
+        font-weight: normal;
+        line-height: 50px;
+        text-align: center;
+        color: #7744d9;
+      }
+    }
+
+    span {
+      color: #fff;
+      font-family: '"Mulish", sans-serif';
+      font-weight: 600;
+      margin-left: 22px;
+      font-size: 18px;
+      display: none;
+    }
+  }
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: -8px;
+  width: 100%;
+  display: block;
+
+  & svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+  }
+}
+
+@keyframes alltuchtopdown {
+  0% {
+    -webkit-transform: rotateX(0deg) translateY(0px);
+    -ms-transform: rotateX(0deg) translateY(0px);
+    transform: rotateX(0deg) translateY(0px);
+  }
+  50% {
+    -webkit-transform: rotateX(0deg) translateY(-20px);
+    -ms-transform: rotateX(0deg) translateY(-20px);
+    transform: rotateX(0deg) translateY(-20px);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg) translateY(0px);
+    -ms-transform: rotateX(0deg) translateY(0px);
+    transform: rotateX(0deg) translateY(0px);
+  }
+}
+@-webkit-keyframes alltuchtopdown {
+  0% {
+    -webkit-transform: rotateX(0deg) translateY(0px);
+    -ms-transform: rotateX(0deg) translateY(0px);
+    transform: rotateX(0deg) translateY(0px);
+  }
+  50% {
+    -webkit-transform: rotateX(0deg) translateY(-20px);
+    -ms-transform: rotateX(0deg) translateY(-20px);
+    transform: rotateX(0deg) translateY(-20px);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg) translateY(0px);
+    -ms-transform: rotateX(0deg) translateY(0px);
+    transform: rotateX(0deg) translateY(0px);
+  }
+}
+
+@-webkit-keyframes ripple-white {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes ripple-white {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+  }
+}

@@ -1,14 +1,12 @@
-import React from "react";
-import { Typography } from "@material-ui/core";
-import "./styles/landingPage.scss";
+import React from 'react';
+import Home from 'components/Home/Home';
+import './styles/landingPage.scss';
 
 const LandingPage = () => {
   return (
-    <div className="home-wrapper">
-      <section id="home" className="section-home">
-        <Typography variant="body1" align="center">
-          Antony Tech
-        </Typography>
+    <div className="landing-page-wrapper">
+      <section id="landing-page" className="section-landing-page">
+        <Home />
       </section>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from '@material-ui/core';
+import { Container, Typography } from '@material-ui/core';
 import LandingPage from 'components/LandingPage/LandingPage';
 import Header from 'components/Header/Header';
 
@@ -9,6 +9,9 @@ const Layout = () => {
   return (
     <Container maxWidth="lg">
       <div className="wrapper">
+        <Typography variant="body1" align="center">
+          Antony Tech
+        </Typography>
         <Header />
         <LandingPage />
       </div>
